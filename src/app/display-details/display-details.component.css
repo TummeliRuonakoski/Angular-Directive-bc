@@ -1,0 +1,16 @@
+button{
+    background-color: #E0A800;
+    color: black;
+    border-radius: 5px;
+    border-color: #F6E8C0;
+    text-align: center;
+}
+
+#lorem{
+    background-color: #D6D8D9;
+}
+
+.white{
+    background-color: black;
+    color: white;
+}

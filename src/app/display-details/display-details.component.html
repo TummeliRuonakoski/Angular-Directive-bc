@@ -1,0 +1,3 @@
+<button (click)="onClick()">paina tästä</button>
+<p *ngIf="displayDetails" id="lorem">Tämä kappale sisältää salaista tietoa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices ex et semper elementum. Nulla a libero nisi. Praesent eget leo sit amet quam faucibus congue at at augue. Quisque pharetra eros ac mauris congue, quis dignissim lectus cursus.</p>
+<p *ngFor="let item of loki; let i = index" [ngClass]="{'white': i > 3}">{{ item }}</p>
